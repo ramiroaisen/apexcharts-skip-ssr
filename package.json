@@ -1,0 +1,22 @@
+{
+	"name": "apexcharts-skip-ssr",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ramiroaisen/apexcharts-skip-ssr"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/ramiroaisen/apexcharts-skip-ssr",
+	"author": "Ramiro Aisen (https://github.com/ramiroaisen)",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"browser": "./browser.js",
+			"default": "./ssr.js"
+		}
+	},
+	"peerDependencies": {
+		"apexcharts": "*"
+	}
+}
