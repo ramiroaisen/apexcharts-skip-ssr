@@ -5,13 +5,16 @@
 		"type": "git",
 		"url": "https://github.com/ramiroaisen/apexcharts-skip-ssr"
 	},
+	"scripts": {
+		"build": "tsc"
+	},
 	"license": "MIT",
 	"homepage": "https://github.com/ramiroaisen/apexcharts-skip-ssr",
 	"author": "Ramiro Aisen (https://github.com/ramiroaisen)",
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./index.d.ts",
+			"types": "./types.d.ts",
 			"browser": "./browser.js",
 			"default": "./ssr.js"
 		}
